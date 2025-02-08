@@ -1,25 +1,18 @@
 # Deployar um site com Cloudflare
 
-- Comprar o domínio [registro.br](https://registro.br)
-- Criar conta no [Cloudflare](https://cloudflare.com)
-- Fazer deploy do site
+
+1. Comprar o domínio [registro.br](https://registro.br)
+2. - Criar conta no [Cloudflare](https://cloudflare.com)
+3. Criar o site no GITHUB, [configurar o Github Pages](github.md)
 
 
-Domínio -> Cloudflare -> Servidor de hospedagem
+## Para alterar o Servidor de Hospedagem
 
-Cloudflare é um midware, onde vc pode mudar o IP de destino, o apontamento do site, sem ficar fora do ar.
+Alterar o IP nos Registros de DNS do CloudFlare
 
-Plano de contigência, ter outro servidor de hospedagem, outra instância, outro projeto no github, com o código da página.
+Servidores do Github 
 
-
-Com Cloudflare vc já tem
-
-- Zona de DNS
-- Cache
-- WAF
-- Regras de apontamento
-- Firewall
-- Segurança
+Servidores da AWS
 
 
 
